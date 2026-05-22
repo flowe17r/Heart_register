@@ -1,0 +1,15 @@
+.\objects\main.o: main.c
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\Start\stm32f10x.h
+.\objects\main.o: .\Start\core_cm3.h
+.\objects\main.o: .\Start\system_stm32f10x.h
+.\objects\main.o: .\common\Debug\Common_Debug.h
+.\objects\main.o: .\driver\Usart\Driver_UASRT1.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: .\app\communication\App_communication.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: .\driver\ADC\Driver_ADC1.h
+.\objects\main.o: .\driver\TIMER\Driver_TIM7.h
+.\objects\main.o: .\app\heart_collect\App_Heart_Collect.h
+.\objects\main.o: .\driver\ADC\Driver_ADC1.h

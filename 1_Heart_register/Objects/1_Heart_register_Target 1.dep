@@ -1,0 +1,75 @@
+Dependencies for Project '1_Heart_register', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.c)(0x69592C61)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+I (.\common\Debug\Common_Debug.h)(0x693E580F)
+I (.\driver\Usart\Driver_UASRT1.h)(0x693D90BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (.\app\communication\App_communication.h)(0x69592C61)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (.\driver\ADC\Driver_ADC1.h)(0x6957C815)
+I (.\driver\TIMER\Driver_TIM7.h)(0x69577A35)
+I (.\app\heart_collect\App_Heart_Collect.h)(0x69593227)
+F (.\common\Debug\Common_Debug.c)(0x693D8F19)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\common_debug.o --omf_browse .\objects\common_debug.crf --depend .\objects\common_debug.d)
+I (common\Debug\Common_Debug.h)(0x693E580F)
+I (.\driver\Usart\Driver_UASRT1.h)(0x693D90BC)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (.\driver\Usart\Driver_Usart1.c)(0x693E6F91)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\driver_usart1.o --omf_browse .\objects\driver_usart1.crf --depend .\objects\driver_usart1.d)
+I (driver\Usart\Driver_UASRT1.h)(0x693D90BC)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (.\driver\ADC\Driver_ADC1.c)(0x6957CAFD)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\driver_adc1.o --omf_browse .\objects\driver_adc1.crf --depend .\objects\driver_adc1.d)
+I (driver\ADC\Driver_ADC1.h)(0x6957C815)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+F (.\driver\TIMER\Driver_TIM7.c)(0x6957827F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\driver_tim7.o --omf_browse .\objects\driver_tim7.crf --depend .\objects\driver_tim7.d)
+I (driver\TIMER\Driver_TIM7.h)(0x69577A35)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+F (.\Start\core_cm3.c)(0x61605446)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (.\Start\system_stm32f10x.c)(0x61605446)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (Start\stm32f10x.h)(0x693E6C52)
+I (Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (Start\system_stm32f10x.h)(0x61605446)
+F (.\Start\startup_stm32f10x_hd.s)(0x61605446)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\app\communication\App_communication.c)(0x69593718)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\app_communication.o --omf_browse .\objects\app_communication.crf --depend .\objects\app_communication.d)
+I (app\communication\App_communication.h)(0x69592C61)
+I (.\driver\Usart\Driver_UASRT1.h)(0x693D90BC)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (.\common\Debug\Common_Debug.h)(0x693E580F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+F (.\app\heart_collect\App_Heart_Collect.c)(0x69593718)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\Usart -I .\common\Debug -I .\app\communication -I .\driver\TIMER -I .\driver\USART -I .\app\heart_collect -I .\driver\ADC-I.\RTE\_Target_1-IC:\Users\27252\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_HD -D_RTE_-o .\objects\app_heart_collect.o --omf_browse .\objects\app_heart_collect.crf --depend .\objects\app_heart_collect.d)
+I (app\heart_collect\App_Heart_Collect.h)(0x69593227)
+I (.\driver\ADC\Driver_ADC1.h)(0x6957C815)
+I (.\Start\stm32f10x.h)(0x693E6C52)
+I (.\Start\core_cm3.h)(0x693E6C52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (.\Start\system_stm32f10x.h)(0x61605446)
+I (.\driver\TIMER\Driver_TIM7.h)(0x69577A35)
+I (.\common\Debug\Common_Debug.h)(0x693E580F)
+I (.\driver\Usart\Driver_UASRT1.h)(0x693D90BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)

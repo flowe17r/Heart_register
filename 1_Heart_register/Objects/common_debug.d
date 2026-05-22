@@ -1,0 +1,9 @@
+.\objects\common_debug.o: common\Debug\Common_Debug.c
+.\objects\common_debug.o: common\Debug\Common_Debug.h
+.\objects\common_debug.o: .\driver\Usart\Driver_UASRT1.h
+.\objects\common_debug.o: .\Start\stm32f10x.h
+.\objects\common_debug.o: .\Start\core_cm3.h
+.\objects\common_debug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\common_debug.o: .\Start\system_stm32f10x.h
+.\objects\common_debug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\common_debug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

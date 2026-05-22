@@ -1,0 +1,12 @@
+.\objects\app_heart_collect.o: app\heart_collect\App_Heart_Collect.c
+.\objects\app_heart_collect.o: app\heart_collect\App_Heart_Collect.h
+.\objects\app_heart_collect.o: .\driver\ADC\Driver_ADC1.h
+.\objects\app_heart_collect.o: .\Start\stm32f10x.h
+.\objects\app_heart_collect.o: .\Start\core_cm3.h
+.\objects\app_heart_collect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_heart_collect.o: .\Start\system_stm32f10x.h
+.\objects\app_heart_collect.o: .\driver\TIMER\Driver_TIM7.h
+.\objects\app_heart_collect.o: .\common\Debug\Common_Debug.h
+.\objects\app_heart_collect.o: .\driver\Usart\Driver_UASRT1.h
+.\objects\app_heart_collect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\app_heart_collect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

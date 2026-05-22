@@ -1,0 +1,11 @@
+.\objects\app_communication.o: app\communication\App_communication.c
+.\objects\app_communication.o: app\communication\App_communication.h
+.\objects\app_communication.o: .\driver\Usart\Driver_UASRT1.h
+.\objects\app_communication.o: .\Start\stm32f10x.h
+.\objects\app_communication.o: .\Start\core_cm3.h
+.\objects\app_communication.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_communication.o: .\Start\system_stm32f10x.h
+.\objects\app_communication.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\app_communication.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\app_communication.o: .\common\Debug\Common_Debug.h
+.\objects\app_communication.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
